@@ -7,6 +7,11 @@ extern Heckel::Application* Heckel::CreateApplication();
 
 int main(int argc, char** argv)
 {
+	Heckel::Log::Init();
+	HZ_CORE_WARN("Init log!");
+	int a = 2;
+	HZ_INFO("hello var={0}", a);
+
 	auto* app = Heckel::CreateApplication();
 	app->Run();
 	return 0;
