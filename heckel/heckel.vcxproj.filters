@@ -4,6 +4,9 @@
     <Filter Include="Heckel">
       <UniqueIdentifier>{113B2EB7-FDDC-588D-E697-6CE1D2D8DFDD}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Heckel\Events">
+      <UniqueIdentifier>{D5A952BF-416A-CEF5-0AA5-1773762413D2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Heckel.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Heckel\EntryPoint.h">
       <Filter>Heckel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Heckel\Events\ApplicationEvent.h">
+      <Filter>Heckel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Heckel\Events\Event.h">
+      <Filter>Heckel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Heckel\Events\KeyEvent.h">
+      <Filter>Heckel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Heckel\Events\MouseEvent.h">
+      <Filter>Heckel\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Heckel\Log.h">
       <Filter>Heckel</Filter>
