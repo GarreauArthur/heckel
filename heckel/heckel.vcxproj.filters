@@ -34,6 +34,7 @@
     <ClInclude Include="src\Heckel\Log.h">
       <Filter>Heckel</Filter>
     </ClInclude>
+    <ClInclude Include="src\hzpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Heckel\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Heckel\Log.cpp">
       <Filter>Heckel</Filter>
     </ClCompile>
+    <ClCompile Include="src\hzpch.cpp" />
   </ItemGroup>
 </Project>
